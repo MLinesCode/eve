@@ -1,0 +1,107 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+a {
+  margin: 0;
+  text-decoration: none;
+  color: #0b0e1a;
+  font-weight: 300;
+}
+ul {
+  margin: 0 15px;
+}
+li {
+  margin: 0 15px;
+  list-style: none;
+  display: inline;
+}
+header {
+  background-color: #e9e9e9;
+  height: 65px;
+  box-shadow: 2px 3px rgba(153, 153, 153, 0.452);
+}
+h1,h2 {
+  margin: 0;
+}
+p {
+  margin: 0;
+}
+
+.menu {
+  margin: 0;
+  height: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo-menu {
+  height: 55px;
+  margin: .5% 2%;
+}
+.btn-cite {
+  height: 52px;
+  padding: 10px 24px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+
+.hero {
+  height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.hero-info {
+  color: rgb(129, 129, 129);
+  margin: 0 2%;
+}
+.hero-image {
+  object-fit: cover;
+  margin: 0;
+  z-index: -99;
+}
+.salon {
+  font-size: 3.5rem;
+  font-weight: 500;
+}
+.hero-description {
+  font-size: 1.8rem;
+  font-weight: 400;
+  width: 550px;
+}
+
+.container {
+  margin: 0 2%;
+  align-items: center;
+}
+.main {
+  height: 450px;
+  background-color: #f1f1f1;
+}
+.porque {
+  padding: 40px 0;
+  margin: 0px 36%;
+  width: 100%;
+  font-size: 1.8rem;
+}
+.porque-descritpion {
+  width: 100%;
+  margin: .5% 0;
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+.servicios {
+  height: 400px;
+}
+
+footer {
+  height: 55px;
+  color: white;
+  background-color: rgb(34, 34, 34);
+}
