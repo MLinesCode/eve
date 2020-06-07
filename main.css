@@ -194,9 +194,32 @@ p {
   grid-row-end: 9;
 }
 
-
 footer {
-  height: 55px;
+  height: 150px;
   color: white;
   background-color: rgb(34, 34, 34);
+}
+
+.social {
+  margin-right: 6%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.social-icon {
+  display: inline;
+  width: 35px;
+  height: 35px;
+  margin: 8px 20px;
+  background-size: 35px 35px;
+}
+.social-icon.facebook {
+  background-image: url('./icons/facebook.svg');
+}
+.social-icon.instagram {
+  background-image: url('./icons/instagram.svg');
+}
+.social-icon.twitter {
+  background-image: url('./icons/twitter.svg');
 }
