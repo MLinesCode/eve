@@ -549,4 +549,7 @@ footer {
     width: auto;
     margin: 4%;
   }
+  .section-text {
+    padding: 3.8%;
+  }
 }
