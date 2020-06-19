@@ -19,7 +19,6 @@ ul {
 }
 li {
   list-style: none;
-  /* display: inline; */
 }
 header {
   background: #8e9eab;  /* fallback for old browsers */
@@ -156,6 +155,7 @@ p {
 
 .abilities {
   margin-top: 2.5%;
+  padding: 0 0 .5% 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -165,6 +165,10 @@ p {
   font-size: 1rem;
   font-weight: 300;
   text-align: center;
+}
+.ability {
+  font-size: 1.3rem;
+  font-weight: 400;
 }
 .section p {
   margin-top: 6%;
@@ -401,9 +405,22 @@ footer {
   }
 }
 @media screen and (max-width: 800px) {
+  .nav-list {
+    margin-left: 30%;
+    width: 100%;
+    margin-top: .4%;
+  }
+  .hero-info {
+    margin-left: -5%;
+  }
   .column {
     flex: 50%;
     max-width: 50%;
+  }
+  .section {
+    width: 40%;
+    margin-top: 3%;
+    padding: .5%;
   }
 }
 @media (min-width: 768px) {
