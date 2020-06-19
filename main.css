@@ -434,6 +434,7 @@ footer {
     border-radius: 50%;
     background: #8e9eab;
     z-index: -1;
+    border: none;
   }
 
   .hamburger-menu {
