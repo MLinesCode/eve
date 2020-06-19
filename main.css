@@ -470,6 +470,9 @@ footer {
     border: none;
     cursor: pointer;
   }
+  .btn-cite {
+    padding: 6%;
+  }
 
   .hamburger-menu {
     width: 1.4em;
