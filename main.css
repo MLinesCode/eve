@@ -426,6 +426,16 @@ footer {
     right: 0;
   }
   
+  .figure {
+    width: 42px;
+    height: 42px;
+    margin: -10px;
+    position: fixed;
+    border-radius: 50%;
+    background: #8e9eab;
+    z-index: -1;
+  }
+
   .hamburger-menu {
     width: 1.4em;
     height: 1.6em;
