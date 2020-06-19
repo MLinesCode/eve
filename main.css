@@ -430,6 +430,7 @@ footer {
     width: 42px;
     height: 42px;
     margin: -10px;
+    top: 2.5%;
     position: fixed;
     border-radius: 50%;
     background: #8e9eab;
