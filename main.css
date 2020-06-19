@@ -39,15 +39,28 @@ p {
 }
 
 .nav-bar {
-  margin: 0;
-  height: 68px;
+  top: -65px;
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: space-between;
+  position: relative;
+  z-index: 99;
 }
 .logo-menu {
   height: 70px;
   margin: .2% 2%;
+}
+.hamburger-menu {
+  display: none;
+}
+.nav-item {
+  margin: 15px;
+}
+.nav-list {
+  margin-left: 60%;
+}
+.nav-list li {
+  display: inline;
 }
 .nav-link {
   color: white;
@@ -420,6 +433,9 @@ footer {
     transition: right .6s cubic-bezier(1, 0, 0, 1);
     z-index: 8;
   }
+  .nav-list li {
+    display: block;
+  }
   
   .change {
     right: 0;
@@ -473,6 +489,8 @@ footer {
   
   .nav-list {
     text-align: center;
+    margin-left: 0;
+    margin-right: 18%;
   }
   
   .nav-item {
