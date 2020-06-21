@@ -11,7 +11,7 @@ body {
 a {
   margin: 0;
   text-decoration: none;
-  color: #0b0e1a;
+  color: white;
   font-weight: 300;
 }
 ul {
@@ -64,6 +64,10 @@ p {
 .nav-link {
   color: white;
   font-weight: 400;
+}
+.btn-text a {
+  font-size: .9rem;
+  font-weight: 600;
 }
 .btn-cite {
   height: 36px;
@@ -173,7 +177,9 @@ p {
 .section p {
   margin-top: 6%;
 }
-
+.contact-wrap h3 {
+  font-weight: 400;
+}
 .servicios {
   margin: 0 0 1% 0;
 }
@@ -315,6 +321,7 @@ textarea {
   outline: none;
   border: none;
   width: 100%;
+  letter-spacing: 2px;
   -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d;
   -webkit-transition: all 0.3s ease-out;
@@ -594,6 +601,7 @@ footer {
   .contact-form .square-button {
     height: 46px;
     font-size: 22px;
+    font-weight: 500;
   }
   .social-icon {
     width: 28px;
