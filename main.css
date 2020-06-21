@@ -304,7 +304,7 @@ textarea {
   text-align: center;
   -moz-border-radius: 2px;
   -webkit-border-radius: 2px;
-  border-radius: 2px;
+  border-radius: 30px;
   -moz-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   -webkit-transition: all 0.3s ease;
@@ -590,5 +590,14 @@ footer {
   }
   .servicios {
     margin: 0 0 2% 0;
+  }
+  .contact-form .square-button {
+    height: 46px;
+    font-size: 22px;
+  }
+  .social-icon {
+    width: 28px;
+    height: 28px;
+    background-size: 28px 28px;
   }
 }
