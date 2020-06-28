@@ -14,13 +14,13 @@ function checkInputs() {
 	const emailValue = email.value.trim();
 	
 	if(usernameValue === '') {
-		setErrorFor(username, 'Introduzca su nombre');
+		setErrorFor(username, 'Inserte su nombre');
 	} else {
 		setSuccessFor(username);
 	}
 	
 	if(emailValue === '') {
-		setErrorFor(email, 'Introduzca su email');
+		setErrorFor(email, 'Inserte su email');
 	} else if (!isEmail(emailValue)) {
 		setErrorFor(email, 'Email no válido');
 	} else {
