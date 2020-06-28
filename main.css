@@ -332,6 +332,30 @@ textarea {
   box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
   transform: translateY(-4px);
 }
+.input-block i {
+  visibility: hidden;
+  position: absolute;
+  top: 33px;
+  right: 10px;
+}
+.input-block.success i.fa-check-circle {
+  color: #2ecc71;
+  visibility: visible;
+}
+.input-block.error i.fa-exclamation-circle {
+  color: #e74c3c;
+  visibility: visible;
+}
+.input-block small {
+  visibility: hidden;
+  position: absolute;
+  bottom: -40%;
+  left: 0;
+  color: #f34242;
+}
+.input-block.error small {
+  visibility: visible;
+}
 /*----page styles---*/
 .contact-wrap {
   padding: 15px;
