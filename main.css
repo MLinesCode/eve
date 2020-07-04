@@ -386,7 +386,7 @@ textarea {
 }
 
 footer {
-  height: 100px;
+  height: 110px;
   color: white;
   background-color: rgb(34, 34, 34);
 }
@@ -418,6 +418,11 @@ footer {
 .legales {
   margin-top: .6%;
   text-align: center;
+}
+.privacidad {
+  margin: 1px;
+  text-align: center;
+  color: #575c61;
 }
 
 @media all and (max-width: 1180px){
