@@ -405,6 +405,7 @@ footer {
   height: 35px;
   margin: 8px 20px;
   background-size: 35px 35px;
+  font-size: 0;
 }
 .social-icon.facebook {
   background-image: url('./icons/facebook.svg');
@@ -494,7 +495,7 @@ footer {
     right: 0;
   }
   
-  .btn-hamburger {
+  .button-menu {
     width: 42px;
     height: 42px;
     margin: -10px;
@@ -505,6 +506,7 @@ footer {
     z-index: -1;
     border: none;
     cursor: pointer;
+    font-size: 0rem;
   }
   .btn-cite {
     padding: 6%;

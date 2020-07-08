@@ -1,3 +1,46 @@
+const menuIcon = document.querySelector(".hamburger-menu");
+const navbar = document.querySelector(".nav-bar");
+
+menuIcon.addEventListener("click", () => {
+  navbar.classList.toggle("change");
+});
+
+var image = document.getElementsByClassName('thumbnail');
+new simpleParallax(image, {
+	maxTransition: 60
+});
+
+$(document).ready(function(){
+
+	//material contact form
+	$('.contact-form').find('.form-control').each(function() {
+	  var targetItem = $(this).parent();
+	  if ($(this).val()) {
+		$(targetItem).find('label').css({
+		  'top': '10px',
+		  'fontSize': '14px'
+		});
+	  }
+	})
+	$('.contact-form').find('.form-control').focus(function() {
+	  $(this).parent('.input-block').addClass('focus');
+	  $(this).parent().find('label').animate({
+		'top': '10px',
+		'fontSize': '14px'
+	  }, 300);
+	})
+	$('.contact-form').find('.form-control').blur(function() {
+	  if ($(this).val().length == 0) {
+		$(this).parent('.input-block').removeClass('focus');
+		$(this).parent().find('label').animate({
+		  'top': '25px',
+		  'fontSize': '18px'
+		}, 300);
+	  }
+	})
+	
+});
+
 const form = document.getElementById('form');
 const username = document.getElementById('username');
 const email = document.getElementById('email');
