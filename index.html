@@ -9,11 +9,11 @@
   <meta name="description" content="Evelyn Osorio estilista">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/bd03114e44.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="product.css">
+  <link rel="stylesheet" href="./product.css">
   <link rel="preload" href="main.js" as="script">
   <title>Salón</title>
 </head>
-<body>
+<body ondragstart="return false" onselectstart="return false"> <!--  oncontextmenu="return false" -->
   <header>
     <img class="logo-menu" src="./image/evelyn.svg" alt="logo-evelyn">
     <nav class="nav-bar">
@@ -25,13 +25,13 @@
       </div>
       <ul class="nav-list">
         <li class="nav-item">
-          <a class="nav-link" href="https://zcmike.github.io/eve/#conoceme">Nosotros</a>
+          <a class="nav-link" href="https://zcmike.github.io/eve/#conoceme">Conoceme</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="https://zcmike.github.io/eve/#habilidades">Servicios</a>
+          <a class="nav-link" href="https://zcmike.github.io/eve/#habilidades">Habilidades</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="https://zcmike.github.io/eve/#trabajos">Productos</a>
+          <a class="nav-link" href="https://zcmike.github.io/eve/#galeria">Galleria</a>
         </li>
         <li class="nav-item">
           <button class="btn-cite">
@@ -46,44 +46,75 @@
       <img class="thumbnail" src="./image/salon-13.webp" alt="imagen-salon">
     </div>
     <div class="hero-info">
-      <h1 class="salon">Evelyn</h1>
-      <p class="hero-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est eius, consequuntur iure in ab voluptas at quia explicabo error</p>
+      <h1 class="salon">Evelin</h1>
+      <p class="hero-description">Estilista con gran eperiencia y habilidades las cuales aplica con gran atención al detalle.</p>
       <button class="btn-learn">
         <a href="https://zcmike.github.io/eve/#contacto">
-          <span class="btn-text">Agendar Cita</span>
+          <span class="btn-text">Conóceme</span>
         </a>
       </button>
     </div>
   </div>
   <section class="main" id="habilidades">
     <div class="container">
-      <h2 class="porque">Porque elegir a Evelyn?</h2>
-      <p class="porque-descritpion">Evelyn tiene experiencia variada en distintas técnicas diversas que se van a describir a continuacion ssd </br> bueno en esta parte se podra seguir hablando y describiendo mas sobre las distintas habilidades adquiridas</p>
+      <h2 class="porque">Porque elegirme?</h2>
+      <p class="porque-descritpion">Cuento con diversas especialidades en el mundo de el estilismo, las cuales práctico con una gran habilidad además de una gran atención al detalle para poder otorgar un trabajo único para una gran satisfacción de parte de los clientes.</p>
     </div>
-    <div class="abilities">
+    <div class="habilities">
       <div class="section">
         <img src="./icons/icon-api.svg" alt="habilidad-colorimetria">
-        <p class="ability">Colorimetria</p>
-        <p class="section-text">Hola aqui va el texto el cual va a desglozar sus habilidades se necesita una buena descripcion y la cual sea corta para las habilidades se</p>
+        <p class="hability">Colorimetria</p>
+        <p class="section-text">Coloracion capilar en la cual mediante los fundamentos de la colomatría otorga una coloracion capilar impecable.</p>
       </div>
       <div class="section">
         <img src="./icons/icon-budgeting.svg" alt="habilidad-alto_peinado">
-        <p class="ability">Alto peinado</p>
-        <p class="section-text">Hola aqui va el texto el cual va a desglozar sus habilidades se necesita una buena descripcion y la cual sea corta para las habilidades se</p>
+        <p class="hability">Alto peinado</p>
+        <p class="section-text">Peinados para ceremonias y eventos especiales. Con atención a cada detalle.</p>
       </div>
       <div class="section">
         <img src="./icons/icon-onboarding.svg" alt="habilidad-maquillaje">
-        <p class="ability">Maquillaje</p>
-        <p class="section-text">Hola aqui va el texto el cual va a desglozar sus habilidades se necesita una buena descripcion y la cual sea corta para las habilidades se</p>
+        <p class="hability">Maquillaje</p>
+        <p class="section-text">Se raliza tomando en cuenta el tono de piel, la forma del rostro y el evento con atención al detalle.</p>
       </div>
       <div class="section">
         <img src="./icons/icon-online.svg" alt="habilidad-corte">
-        <p class="ability">Corte</p>
-        <p class="section-text">Hola aqui va el texto el cual va a desglozar sus habilidades se necesita una buena descripcion y la cual sea corta para las habilidades</p>
+        <p class="hability">Corte</p>
+        <p class="section-text">Actualizados todo el tiempo a las ultimas tendencias en hombres y mujeres.</p>
       </div>
     </div>
   </section>
-  <section class="trabajos" id="trabajos">
+  <section class="comentarios">
+    <div class="coment">
+      <div class="content-container">
+        <figure class="img-container">
+          <img class="img-feedback" src="./image/man3" alt="">
+        </figure>
+        <div class="content-feedback">
+          <h3>Alejandro Flores</h3>
+          <p>"EL servicio es excelente además de que tiene mucha atención al detalle."</p>
+        </div>
+      </div>
+      <div class="content-container">
+        <figure class="img-container">
+          <img class="img-feedback" src="./image/woman6.webp" alt="">
+        </figure>
+        <div class="content-feedback">
+          <h3>Jessica Flores</h3>
+          <p>"EL servicio es excelente además de que tiene mucha atención al detalle."</p>
+        </div>
+      </div>
+      <div class="content-container">
+        <figure class="img-container">
+          <img class="img-feedback" src="./image/woman5.webp" alt="">
+        </figure>
+        <div class="content-feedback">
+          <h3>Dayana Flores</h3>
+          <p>"EL servicio es excelente además de que tiene mucha atención al detalle."</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="trabajos" id="galeria">
     <div class="row" id="sevicios">
       <div class="column">
         <img src="./image/men18.jpg" style="width: 100%;" loading="lazy" alt="ejemplo1">
