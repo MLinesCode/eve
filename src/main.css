@@ -73,7 +73,7 @@ p {
   height: 36px;
   padding: 6px 20px;
   border: 2px solid #b6cada;
-  border-radius: 20px;
+  border-radius: 99999px;
   cursor: pointer;
   overflow: hidden;
   color: white;
@@ -124,7 +124,7 @@ p {
   margin-top: 2%;
   height: 38px;
   padding: 8px 18px;
-  border-radius: 20px;
+  border-radius: 9999px;
   border: none;
   cursor: pointer;
   color: white;
@@ -152,12 +152,57 @@ p {
 .porque-descritpion {
   width: 100%;
   margin: .5% 0;
+  padding: 1%;
   text-align: center;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   font-weight: 300;
 }
 
-.abilities {
+.comentarios {
+  height: 9rem;
+  padding: 1.5% 1% 1% 1%;
+  position: relative;
+  z-index: 99;
+  overflow: scroll;
+  /* margin-top: .6%; */
+  background-color: #f1f1f1;
+}
+.coment {
+  margin: 1% 0;
+  display: flex;
+  justify-content: space-around;
+}
+.img-container {
+  height: 70px;
+  width: 70px;
+  overflow: hidden;
+  margin: 8px;
+  border-radius: 100%;
+}
+.img-feedback {
+  height: 100%;
+}
+.content-container {
+  width: 25.4rem;
+  display: flex;
+  padding: .6%;
+  color: #eeeeee;
+  text-align: center;
+  border-radius: 12px;
+  background-color: #6d7c88;
+}
+.content-container h3 {
+  margin: 5px;
+  letter-spacing: 2px;
+  font-size: 1.1rem;
+}
+.content-feedback p {
+  width: 18rem;
+  font-size: .9rem;
+  letter-spacing: 1px;
+}
+
+.habilities {
   margin-top: 2.5%;
   padding: 0 0 .5% 0;
   display: flex;
@@ -170,12 +215,15 @@ p {
   font-weight: 300;
   text-align: center;
 }
-.ability {
+.hability {
   font-size: 1.3rem;
   font-weight: 400;
 }
 .section p {
   margin-top: 6%;
+}
+.section-text {
+  text-align: left;
 }
 .contact-wrap h3 {
   font-weight: 400;
@@ -400,7 +448,6 @@ footer {
   flex-wrap: wrap;
 }
 .social-icon {
-  display: inline;
   width: 35px;
   height: 35px;
   margin: 8px 20px;
@@ -423,7 +470,7 @@ footer {
 .privacidad {
   margin: 1px;
   text-align: center;
-  color: #575c61;
+  color: #8d9194;
 }
 
 @media all and (max-width: 1180px){
@@ -628,6 +675,29 @@ footer {
   }
   .servicios {
     margin: 0 0 2% 0;
+  }
+  .coment {
+    justify-content: start;
+  }
+  .comentarios {
+    height: 7rem;
+    overflow: scroll;
+    z-index: 1;
+  }
+  .content-container {
+    height: 5.8rem;
+    width: 22rem;
+    margin: 0 1.5%;
+  }
+  .img-container {
+    height: 60px;
+    width: 60px;
+    margin: 4px;
+    margin-top: 5%;
+  }
+  .content-feedback p {
+    width: 15rem;
+    font-size: .8rem;
   }
   .contact-form .square-button {
     height: 46px;
