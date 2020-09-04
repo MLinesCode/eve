@@ -159,7 +159,7 @@ p {
 }
 
 .comentarios {
-  height: 9rem;
+  /* height: 15rem; */
   padding: 1.5% 1% 1% 1%;
   position: relative;
   z-index: 99;
@@ -168,7 +168,7 @@ p {
   background-color: #f1f1f1;
 }
 .coment {
-  margin: 1% 0;
+  margin: 0;
   display: flex;
   justify-content: space-around;
 }
